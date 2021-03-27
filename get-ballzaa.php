@@ -3,7 +3,7 @@
     ini_set('display_errors', 1);
     header("Content-Type: text/plain");
 
-	require_once($_SERVER['DOCUMENT_ROOT'] . '/ball/homepage/libs/config.inc');
+	require_once($_SERVER['DOCUMENT_ROOT'] . '/api_ballzaa/homepage/libs/config.inc');
 	// require_once(ROOT_PATH . '/homepage/libs/connect.inc');
 	// include_once(ROOT_PATH . '/homepage/libs/common-functions.php');
 
