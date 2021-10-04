@@ -98,7 +98,7 @@
         return $noi;
     }
 
-    $matches = file_get_contents('https://www.ballzaa.com/linkdooball.php');
+    $matches = file_get_contents('https://www.ballzaa.com/%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%8B%E0%B9%88%E0%B8%B2%E0%B8%94%E0%B8%B9%E0%B8%9A%E0%B8%AD%E0%B8%A5%E0%B8%AA%E0%B8%94');
     preg_match("'<body>(.*?)</body>'si", $matches, $raws);
 
     $datas = $raws[1];
